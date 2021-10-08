@@ -44,7 +44,7 @@ hr{
     width: 100%;
 }
 
-#card{
+#cardGit{
     background-color: rgb(51, 66, 66);
     text-align: center;
     margin: 15px;
@@ -61,10 +61,13 @@ hr{
     border-radius: 10px;
 }
 
+#command{
+    display: flex;
+}
+
 #left{
-    /* display: grid; */
-    /* flex-direction: column; */
-    justify-content: center;
+    min-width: 65%;
+    margin: 0 15px 0 0;
 }
 
 .title{
@@ -107,4 +110,14 @@ hr{
 .command{
     padding: 20px 30px;
     font-size: 14px;
+}
+
+.cardInfo{
+    background-color: rgb(51, 66, 66);
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1.2px rgb(5, 150, 5, 0.7);
 }
