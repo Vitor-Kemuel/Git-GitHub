@@ -6,6 +6,7 @@
 body{
     background-color: rgb(23, 24, 32);
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -17,16 +18,30 @@ hr{
     margin: 5px;
 }
 
+#logoGit{
+    width: 70px;
+    margin: 5px;
+    margin-left: 20px;
+    padding: 0 15px;
+    border-radius: 15px;
+}
+#logoGit:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 #body{
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-weight: bold;
+    margin: 0 10%;
 }
 
 #topBody{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
 #card{
@@ -40,8 +55,7 @@ hr{
 }
 
 #basicSettings{
-    /* background-color: rgb(51, 66, 66); */
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
     min-width: 305px;
     border-radius: 10px;
@@ -51,6 +65,39 @@ hr{
     color: rgb(5, 150, 5);
 }
 
+.commandTable{
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 65%;
+    color: #fff;
+    background-color: #343a40;
+    border-collapse: collapse;
+}
+.commandTableTitle th{
+    font-size: 25px;
+    background-color: #000;
+    border-radius: 15px 15px 0 0;
+}
+.commandTableTitle{
+    font-size: 25px;
+    background-color: #000;
+}
+.commandTableTitle{
+    font-size: 25px;
+    background-color: #000;
+}
+.commandTableTitle{
+    font-size: 25px;
+    background-color: #000;
+}
+.commandLine{
+    border-color: inherit;
+    color: #fff;
+}
+.commandLine:hover{
+    background-color: #58636eda;
+}
 .command{
-    margin: 15px 0;
+    padding: 20px 30px;
+    font-size: 14px;
 }

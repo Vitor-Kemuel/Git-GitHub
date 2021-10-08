@@ -9,20 +9,54 @@
 </head>
 <body>
     <header>
-        <img src="https://icongr.am/devicon/git-original-wordmark.svg" alt="Git">
+        <img id="logoGit" src="https://icongr.am/devicon/git-original-wordmark.svg" alt="Git">
     </header>
     <div id="body">
         <div id="topBody">
             <div id="card">
                 <h1 class="title">GIT - GITHUB</h1><hr>
-                <p>O git é uma ferramenta de controle de versões, gera uma linha do tempo com as alterações feitas no codigo e nele você pode ter acesso a todas essas alterações.</p>
-                <p>Já o GitHub é o repositorio remoto, lugar para onde compartilhamos nossos codigos e também chamado de rede social dos desenvolvedores.</p>
+                <p>O git é uma ferramenta de controle de versões, gera uma linha do tempo com as alterações feitas no código e nele você pode ter acesso a todas essas alterações.</p>
+                <p>Já o GitHub é o repositório remoto, lugar para onde compartilhamos nossos códigos e também chamado de rede social dos desenvolvedores.</p>
             </div>
             <div id="basicSettings">
                 <h2 class="title">Configurações Usuário</h2><hr>
                 <p class="command">git config --global user.name "nome"</p>
                 <p class="command">git config --global user.email "link do email"</p>
                 <p class="command">git --version (Usado para ver a versão)</p>
+            </div>
+        </div><hr>
+        <div id="command">
+            <div id="connectRepository">
+                <div >
+                    <table class="commandTable">
+                        <thead>
+                            <tr class="commandTableTitle">
+                                <th colspan="2" class="title">
+                                    Conectar o repositório ao GitHub
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="commandLine">
+                                <td class="command">git init</td>
+                                <td class="command">inicia o repositório na pasta</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git add</td>
+                                <td class="command">adiciona arquivos</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git commit -m "mensagem"</td>
+                                <td class="command">faz a mensagem do commit</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git remote add origin LINK</td>
+                                <td class="command">adiciona o repositório local ao remoto</td>
+                            </tr>
+                            <tr><th><br></th></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
