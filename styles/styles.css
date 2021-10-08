@@ -48,7 +48,7 @@ header h2{
     padding: 10px;
     border-radius: 10px;
     margin: 15px;
-    box-shadow: 12px 12px 7px var(--boxShadowColor);
+    box-shadow: 12px 12px 3px var(--boxShadowColor);
     background-color: rgb(51, 66, 66);
 }
 #basicSettings{
