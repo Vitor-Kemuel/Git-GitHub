@@ -8,11 +8,9 @@ body{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header{
     background-color: rgb(51, 66, 66);
 }
-
 hr{
     border-color: rgb(62, 87, 87);
     margin: 5px 0;
@@ -20,80 +18,65 @@ hr{
 
 #logoGit{
     width: 70px;
-    margin: 5px;
-    margin-left: 20px;
+    margin: 5px 5px 5px 20px;
     padding: 0 15px;
     border-radius: 15px;
 }
 #logoGit:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
-
 #body{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     font-weight: bold;
     margin: 0 10%;
 }
-
 #topBody{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
-
 #cardGit{
-    background-color: rgb(51, 66, 66);
     text-align: center;
-    margin: 15px;
-    padding: 10px;
     max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 12px 12px 7px rgb(5, 150, 5, 0.7);
-}
-
-#basicSettings{
-    margin: 10px;
     padding: 10px;
-    min-width: 305px;
     border-radius: 10px;
+    margin: 15px;
+    box-shadow: 12px 12px 7px rgb(5, 150, 5, 0.7);
+    background-color: rgb(51, 66, 66);
 }
-
+#basicSettings{
+    min-width: 305px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
 #commands{
     display: flex;
+    flex-direction: row;
 }
-
 #left{
     min-width: 65%;
     margin: 0 15px 0 0;
 }
 
 .title{
-    color: rgb(5, 150, 5);
     text-align: center;
+    color: rgb(5, 150, 5);
 }
-
 .commandTable{
-    margin: 0 0 15px;
-    border-radius: 15px;
     min-width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    margin: 0 0 15px;
     color: #fff;
     background-color: #343a40;
-    border-collapse: collapse;
 }
 .commandTableTitle th{
     font-size: 25px;
-    background-color: #000;
     border-radius: 15px 15px 0 0;
-}
-.commandTableTitle{
-    font-size: 25px;
-    background-color: #000;
-}
-.commandTableTitle{
-    font-size: 25px;
     background-color: #000;
 }
 .commandTableTitle{
@@ -108,16 +91,16 @@ hr{
     background-color: #58636eda;
 }
 .command{
-    padding: 20px 30px;
     font-size: 14px;
+    padding: 20px 30px;
 }
 
 .cardInfo{
-    background-color: rgb(51, 66, 66);
-    text-align: center;
-    margin: 15px;
-    padding: 10px;
     max-width: 500px;
+    text-align: center;
+    padding: 10px;
     border-radius: 10px;
+    margin: 15px;
+    background-color: rgb(51, 66, 66);
     box-shadow: 2px 2px 1.2px rgb(5, 150, 5, 0.7);
 }
