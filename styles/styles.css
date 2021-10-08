@@ -1,29 +1,33 @@
+:root{
+    --TitleColor: rgb(5, 51, 150);
+    --titleShadowColor: rgb(0, 0, 0, 0.7); 
+    --boxShadowColor: rgb(5, 51, 150, 0.7);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: rgb(23, 24, 32);
+    background-color: rgb(16, 17, 22);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    display: flex;
+    justify-content: center;
     background-color: rgb(51, 66, 66);
 }
 hr{
     border-color: rgb(62, 87, 87);
     margin: 5px 0;
 }
-
-#logoGit{
-    width: 70px;
-    margin: 5px 5px 5px 20px;
-    padding: 0 15px;
+header h2{
+    padding: 10px;
     border-radius: 15px;
-}
-#logoGit:hover{
-    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    background-color: #939393;
 }
 #body{
     display: flex;
@@ -44,7 +48,7 @@ hr{
     padding: 10px;
     border-radius: 10px;
     margin: 15px;
-    box-shadow: 12px 12px 7px rgb(5, 150, 5, 0.7);
+    box-shadow: 12px 12px 7px var(--boxShadowColor);
     background-color: rgb(51, 66, 66);
 }
 #basicSettings{
@@ -58,13 +62,14 @@ hr{
     flex-direction: row;
 }
 #left{
-    min-width: 65%;
+    min-width: 70%;
     margin: 0 15px 0 0;
 }
 
 .title{
     text-align: center;
-    color: rgb(5, 150, 5);
+    color: var(--TitleColor);
+    filter: drop-shadow(1px 1px 7px var(--titleShadowColor));
 }
 .commandTable{
     min-width: 100%;
@@ -76,6 +81,7 @@ hr{
 }
 .commandTableTitle th{
     font-size: 25px;
+    padding: 15px;
     border-radius: 15px 15px 0 0;
     background-color: #000;
 }
@@ -101,6 +107,6 @@ hr{
     padding: 10px;
     border-radius: 10px;
     margin: 15px;
-    background-color: rgb(51, 66, 66);
-    box-shadow: 2px 2px 1.2px rgb(5, 150, 5, 0.7);
+    background-color: rgb(46, 44, 44);
+    box-shadow: 2px 2px 1.2px var(--boxShadowColor);
 }
