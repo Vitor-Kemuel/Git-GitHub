@@ -25,39 +25,41 @@
                 <p class="command">git --version (Usado para ver a versão)</p>
             </div>
         </div><hr>
-        <div id="command">
+        <div id="initialCommands">
+            <div id="connectRepository">
+                <table class="commandTable">
+                    <thead>
+                        <tr class="commandTableTitle">
+                            <th colspan="2" class="title">
+                                Conectar o repositório ao GitHub
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="commandLine">
+                            <td class="command">git init</td>
+                            <td class="command">inicia o repositório na pasta</td>
+                        </tr>
+                        <tr class="commandLine">
+                            <td class="command">git add</td>
+                            <td class="command">adiciona arquivos</td>
+                        </tr>
+                        <tr class="commandLine">
+                            <td class="command">git commit -m "mensagem"</td>
+                            <td class="command">faz a mensagem do commit</td>
+                        </tr>
+                        <tr class="commandLine">
+                            <td class="command">git remote add origin LINK</td>
+                            <td class="command">adiciona o repositório local ao remoto</td>
+                        </tr>
+                        <tr><th colspan="2"><br></th></tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+        </div>
+        <div id="commands">
             <div id="left">
-                <div id="connectRepository">
-                    <table class="commandTable">
-                        <thead>
-                            <tr class="commandTableTitle">
-                                <th colspan="2" class="title">
-                                    Conectar o repositório ao GitHub
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="commandLine">
-                                <td class="command">git init</td>
-                                <td class="command">inicia o repositório na pasta</td>
-                            </tr>
-                            <tr class="commandLine">
-                                <td class="command">git add</td>
-                                <td class="command">adiciona arquivos</td>
-                            </tr>
-                            <tr class="commandLine">
-                                <td class="command">git commit -m "mensagem"</td>
-                                <td class="command">faz a mensagem do commit</td>
-                            </tr>
-                            <tr class="commandLine">
-                                <td class="command">git remote add origin LINK</td>
-                                <td class="command">adiciona o repositório local ao remoto</td>
-                            </tr>
-                            <tr><th colspan="2"><br></th></tr>
-                        </tbody>
-                    </table>
-                </div>
-                <hr>
                 <div id="basicCommands">
                     <table class="commandTable">
                         <thead>
@@ -125,6 +127,10 @@
                 <div class="cardInfo">
                     <h2 class="title">Branchs</h2><hr>
                     <p>É uma ramificação do projeto, ela representa uma versão do projeto, se pode seguir uma linha de desenvolvimento a partir de cada branch</p>
+                </div><hr>
+                <div class="cardInfo">
+                    <h2 class="title">Main ou master?</h2><hr>
+                    <p>O nome utilizado para as branchs é main. Caso a branch de seu projeto esteja com outro nome use o comando "git branch -m main" para alterar o nome</p>
                 </div>
             </div>
         </div>
