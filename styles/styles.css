@@ -65,6 +65,10 @@ header h2{
     min-width: 70%;
     margin: 0 15px 0 0;
 }
+#repositorio{
+    display: flex;
+    justify-content: center;
+}
 
 .title{
     text-align: center;
