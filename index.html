@@ -16,7 +16,7 @@
             <div id="card">
                 <h1 class="title">GIT - GITHUB</h1><hr>
                 <p>O git é uma ferramenta de controle de versões, gera uma linha do tempo com as alterações feitas no código e nele você pode ter acesso a todas essas alterações.</p>
-                <p>Já o GitHub é o repositório remoto, lugar para onde compartilhamos nossos códigos e também chamado de rede social dos desenvolvedores.</p>
+                <p>Já o GitHub é o repositório remoto, lugar para onde compartilhamos nossos códigos e também é chamado de rede social dos desenvolvedores.</p>
             </div>
             <div id="basicSettings">
                 <h2 class="title">Configurações Usuário</h2><hr>
@@ -26,8 +26,8 @@
             </div>
         </div><hr>
         <div id="command">
-            <div id="connectRepository">
-                <div >
+            <div id="left">
+                <div id="connectRepository">
                     <table class="commandTable">
                         <thead>
                             <tr class="commandTableTitle">
@@ -53,7 +53,58 @@
                                 <td class="command">git remote add origin LINK</td>
                                 <td class="command">adiciona o repositório local ao remoto</td>
                             </tr>
-                            <tr><th><br></th></tr>
+                            <tr><th colspan="2"><br></th></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr>
+                <div id="basicCommands">
+                    <table class="commandTable">
+                        <thead>
+                            <tr class="commandTableTitle">
+                                <th colspan="2" class="title">
+                                    Comandos básicos
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="commandLine">
+                                <td class="command">cd nomeDaPasta</td>
+                                <td class="command">abre a pasta escolhida</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">cd ..</td>
+                                <td class="command">retorna para pasta anterior</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git status</td>
+                                <td class="command">vê o status atual do repositório</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git log</td>
+                                <td class="command">lista todos os commits já realizados</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git show</td>
+                                <td class="command">mostra as alterações feitas no último commit</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git help</td>
+                                <td class="command">imprime uma lista de comandos mais usados</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git rm</td>
+                                <td class="command">remove arquivos</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git -mv</td>
+                                <td class="command">move ou renomeia arquivos</td>
+                            </tr>
+                            <tr class="commandLine">
+                                <td class="command">git reset --hard</td>
+                                <td class="command">volta seu repositório para o último commit</td>
+                            </tr>
+                            <tr><th colspan="2"><br></th></tr>
                         </tbody>
                     </table>
                 </div>

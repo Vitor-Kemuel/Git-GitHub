@@ -10,12 +10,12 @@ body{
 }
 
 header{
-    background-color: rgb(34, 56, 56);
+    background-color: rgb(51, 66, 66);
 }
 
 hr{
     border-color: rgb(62, 87, 87);
-    margin: 5px;
+    margin: 5px 0;
 }
 
 #logoGit{
@@ -61,14 +61,21 @@ hr{
     border-radius: 10px;
 }
 
+#left{
+    /* display: grid; */
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
 .title{
     color: rgb(5, 150, 5);
+    text-align: center;
 }
 
 .commandTable{
-    margin-left: 15px;
+    margin: 0 0 15px;
     border-radius: 15px;
-    width: 65%;
+    min-width: 100%;
     color: #fff;
     background-color: #343a40;
     border-collapse: collapse;
